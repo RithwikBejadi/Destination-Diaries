@@ -1,2 +1,5 @@
 # Destination Diaries
-A website to view the reviews by people for people for famous landmarks in the world (S&W Project)
+
+Destination Diaries is a website where users can explore reviews and insights on landmarks from around the world. The platform allows users to read, write, and share their experiences, helping travelers make informed decisions about their next destinations.
+
+# S&W Project
