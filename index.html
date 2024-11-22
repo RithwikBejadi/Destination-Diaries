@@ -8,18 +8,40 @@
     <style>
         .Nav_Bar{
             display: flex;
-            margin: auto;
+            /* margin: auto; */
+            justify-content: flex-end;
+            
         }
         .inav {
-            margin-left: 20px;
+            margin-left: 50px;
+            margin-right: 20px;
+        }
+        .nav_text {
+            font-size: 22px;
+            text-align: center;
+            
+        }
+        body {
+            background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(120,53,149,1) 14%, rgba(0,212,255,1) 100%);
+        }
+        .nav_but{
+            padding: 0px 20px;
+            background-color: rgba(198, 185, 185, 0.553);
+            border-radius: 20px;
+            border: 0px solid black;
+        }
+        .nav_links {
+            text-decoration: none;
+            color: rgb(233, 222, 222);
         }
     </style>
 </head>
 <body>
     <div class="Nav_Bar">
-        <div class="inav"><a href="about.html">About</a></div>
-        <div class="inav"><a href="Contact_Us.html">Contact Us</a></div>
-        <div class="inav"><a href="resources.html">Resources</a></div>
+        <div class="inav"><button class="nav_but"><a class="nav_links" href="about.html"><p class="nav_text">About</p></a></button></div>
+        <div class="inav"><button class="nav_but"><a class="nav_links" href="Contact_Us.html"><p class="nav_text">Contact Us</p></a></button></div>
+        <div class="inav"><button class="nav_but"><a class="nav_links" href="resources.html"><p class="nav_text">Resources</p></a></button></div>
     </div>
 </body>
 </html>
