@@ -10,6 +10,9 @@
             display: flex;
             margin-top: 14px;
             justify-content: flex-end;
+            margin:0px;
+            padding: 40px;
+            background-color: rgba(4, 20, 92, 0.82);
             
         }
         .inav {
@@ -34,22 +37,29 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(120,53,149,1) 14%, rg
             border: 0px solid black;
         }
         .nav_but:hover {
-            background-color: gray;
+            background-color: rgb(57, 57, 57);
             cursor: pointer;
         }
         .nav_links {
             text-decoration: none;
             color: rgb(233, 222, 222);
         }
+        .nav_img {
+            height: 200px;
+            justify-content: flex-start;
+            padding: 0;
+        }
+        
     </style>
 </head>
 <body>
     <div class="Nav_Bar">
+        <img src = "destia.png" class="nav_img" >   
         <div class="inav"><button class="nav_but"><a class="nav_links" href="about.html"><p class="nav_text">About</p></a></button></div>
         <div class="inav"><button class="nav_but"><a class="nav_links" href="Contact_Us.html"><p class="nav_text">Contact Us</p></a></button></div>
         <div class="inav"><button class="nav_but"><a class="nav_links" href="resources.html"><p class="nav_text">Resources</p></a></button></div>
 
     </div>
-    <hr style ="margin-top: 20px; height:3px; width:100%;">
+    <hr style ="margin:0px; height:3px; width:100%;">
 </body>
 </html>
