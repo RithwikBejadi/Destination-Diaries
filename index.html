@@ -9,10 +9,12 @@
         .Nav_Bar{
             display: flex;
             margin-top: 14px;
-            justify-content: flex-end;
+            align-items: center;
+            justify-content: flex-end;  
             margin:0px;
             padding: 40px;
-            background-color: rgba(4, 20, 92, 0.82);
+            background-color: #191970; /* Midnight blue */
+color: #ffffff; /* White text */
             
         }
         .inav {
@@ -25,8 +27,13 @@
             
         }
         body {
-            background: rgb(2,0,36);
-background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(120,53,149,1) 14%, rgba(0,212,255,1) 100%);
+            background-image: url(hillslsss.jpg); /* Image URL */
+  background-size: cover; /* Ensures the image covers the entire screen */
+  background-position: center; /* Centers the image */
+  background-attachment: fixed; /* Keeps the image fixed while scrolling */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  height: 100vh;
+
             margin: 0px;
             padding: 0px;
         }
@@ -45,10 +52,13 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(120,53,149,1) 14%, rg
             color: rgb(233, 222, 222);
         }
         .nav_img {
-            height: 200px;
-            justify-content: flex-start;
+            height: 120px;
+            width: auto;
             padding: 0;
-        }
+            margin-right: auto;
+            border-radius: 30px;
+            
+                    }
         
     </style>
 </head>
@@ -60,6 +70,6 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(120,53,149,1) 14%, rg
         <div class="inav"><button class="nav_but"><a class="nav_links" href="resources.html"><p class="nav_text">Resources</p></a></button></div>
 
     </div>
-    <hr style ="margin:0px; height:3px; width:100%;">
+    <hr style ="margin:0px; height:3px; width:100%; background-color: black; border:1px solid black;">
 </body>
 </html>
