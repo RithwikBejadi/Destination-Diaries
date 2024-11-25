@@ -1,0 +1,46 @@
+.Nav_Bar{
+    display: flex;
+    margin-top: 14px;
+    align-items: center;
+    justify-content: flex-end;  
+    margin:0px;
+    padding: 40px;
+    background-color: #191970; /* Midnight blue */
+color: #ffffff; /* White text */
+    
+}
+.inav {
+    margin-left: 50px;
+    margin-right: 20px;
+}
+.nav_text {
+    font-size: 22px;
+    text-align: center;
+    
+}
+.nav_but{
+    padding: 0px 20px;
+    background-color: rgba(174, 164, 164, 0.553);
+    border-radius: 20px;
+    border: 0px solid black;
+}
+.nav_but:hover {
+    background-color: rgb(57, 57, 57);
+    cursor: pointer;
+}
+.nav_links {
+    text-decoration: none;
+    color: rgb(233, 222, 222);
+}
+.nav_img {
+    height: 120px;
+    width: auto;
+    padding: 0;
+    margin-right: auto;
+    border-radius: 30px;
+    
+            }
+body {
+    padding: 0;
+    margin: 0;
+}
