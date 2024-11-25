@@ -1,12 +1,12 @@
 .Nav_Bar{
     display: flex;
     margin-top: 14px;
-    align-items: center;
+    align-items: flex-start;
     justify-content: flex-end;  
     margin:0px;
-    padding: 40px;
-    background-color: #191970; /* Midnight blue */
-color: #ffffff; /* White text */
+    padding: 20px;
+    background-color: #191970; 
+    color: #ffffff;
     
 }
 .inav {
@@ -14,7 +14,7 @@ color: #ffffff; /* White text */
     margin-right: 20px;
 }
 .nav_text {
-    font-size: 22px;
+    font-size: 20px;
     text-align: center;
     
 }
@@ -33,7 +33,7 @@ color: #ffffff; /* White text */
     color: rgb(233, 222, 222);
 }
 .nav_img {
-    height: 120px;
+    height: 60px;
     width: auto;
     padding: 0;
     margin-right: auto;
