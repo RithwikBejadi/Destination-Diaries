@@ -4,8 +4,8 @@
     align-items: flex-start;
     justify-content: flex-end;  
     margin:0px;
-    padding: 20px;
-    background-color: #191970; 
+    padding: 10px;
+    background-color: #1c1c1c; 
     color: #ffffff;
     
 }
@@ -14,15 +14,16 @@
     margin-right: 20px;
 }
 .nav_text {
-    font-size: 20px;
+    font-size: 17px;
     text-align: center;
     
 }
 .nav_but{
     padding: 0px 20px;
-    background-color: rgba(174, 164, 164, 0.553);
     border-radius: 20px;
     border: 0px solid black;
+    text-decoration: none;
+    background-color: transparent;
 }
 .nav_but:hover {
     background-color: rgb(57, 57, 57);
@@ -33,7 +34,7 @@
     color: rgb(233, 222, 222);
 }
 .nav_img {
-    height: 60px;
+    height: 50px;
     width: auto;
     padding: 0;
     margin-right: auto;
