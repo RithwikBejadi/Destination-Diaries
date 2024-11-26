@@ -14,7 +14,7 @@
     margin-right: 20px;
 }
 .nav_text {
-    font-size: 20px;
+    font-size: 17px;
     text-align: center;
     
 }
@@ -23,6 +23,8 @@
     background-color: rgba(15, 240, 222, 0.38);
     border-radius: 20px;
     border: 0px solid black;
+    text-decoration: none;
+    background-color: transparent;
 }
 .nav_but:hover {
     background-color: rgb(57, 57, 57);
@@ -33,7 +35,7 @@
     color: rgb(233, 222, 222);
 }
 .nav_img {
-    height: 60px;
+    height: 50px;
     width: auto;
     padding: 0;
     margin-right: auto;
