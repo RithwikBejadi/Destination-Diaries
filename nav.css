@@ -5,8 +5,8 @@
     justify-content: flex-end;  
     margin:0px;
     padding: 20px;
-    background-color: #191970; 
-    color: #ffffff;
+    background-color: rgba(175, 12, 181, 0.113); 
+    color: #ebd212f2;
     
 }
 .inav {
@@ -20,7 +20,7 @@
 }
 .nav_but{
     padding: 0px 20px;
-    background-color: rgba(174, 164, 164, 0.553);
+    background-color: rgba(15, 240, 222, 0.38);
     border-radius: 20px;
     border: 0px solid black;
 }
