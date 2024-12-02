@@ -1,6 +1,10 @@
-.body{
-    background-image: url(https://images.pexels.com/photos/29013116/pexels-photo-29013116.jpeg?auto=compress&cs=tinysrgb&fit=crop&fp-y=0.4000000059604645&h=500&w=1400&dpr=1);
+.bottom{
+    background-image: url(https://img.freepik.com/free-photo/warm-save-wallpaper-dark-texture_1258-284.jpg?t=st=1733164503~exp=1733168103~hmac=130c909f53e739cbf1ff0c0d04d76958b53db01cf11053a42e9a71583feee9a0&w=2000);
     background-repeat: no-repeat;
     background-size: cover;
 
+}
+
+.name{
+    color: orangered;
 }
