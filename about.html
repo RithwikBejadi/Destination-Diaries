@@ -8,7 +8,8 @@
     <style>
 
         .names {
-            display: flex;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
             margin: auto;
             justify-content: center;
             
@@ -17,14 +18,17 @@
             margin: auto;
             margin-top: 100px;
             font-style: normal;
+            border: 1px solid black;
+            box-shadow: 2px 0 1px 1px black;
         }
+
 
     </style>
     <link rel ="stylesheet" href="nav.css">
 </head>
 <body>
     <div class="Nav_Bar">
-        <img src = "destia.png" class="nav_img" >
+        <img src = "images/destia.png" class="nav_img" >
         <div class="inav"><button class="nav_but"><a class="nav_links" href="index.html"><p class="nav_text">Home</p></a></button></div> 
         <div class="inav"><button class="nav_but"><a class="nav_links" href="about.html"><p class="nav_text">About</p></a></button></div>
         <div class="inav"><button class="nav_but"><a class="nav_links" href="Contact_Us.html"><p class="nav_text">Contact Us</p></a></button></div>
