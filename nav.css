@@ -1,12 +1,13 @@
 .Nav_Bar{
     display: flex;
-    margin-top: 14px;
+    margin-top: 0px;
     align-items: flex-start;
     justify-content: center;  
     margin:0px;
     padding: 4px;
     background-color: rgb(65, 65, 65); 
     color: #ebd212f2;
+    position: relative;
     
 }
 .inav {
@@ -59,3 +60,4 @@ body {
     padding: 0;
     margin: 0;
 }
+

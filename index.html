@@ -6,26 +6,37 @@
     <title>Destination Diaries</title>
 
     <style>
-
-
-    body {
-            margin: 0px;
-            padding: 0px;
+    body,html {
+        margin: 0px;
+        padding: 0px;
+        
         }
         
-        .mainhead{
-            font-size: 50px;
-            height: 220px;
-            width:500px;
-            text-align: center;
-            margin-left: auto;
-            margin-right: auto;
-        }
+    .mainhead h1{
+        font-size: 90px;
+        height: 220px;
+        width:500px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin: auto;
+        color: white;
+        text-shadow: 5px 5px black;
+        padding-top: 200px;
 
+        }
+        .backdrop {
+            background-image: url(Images/for.jpg);
+            background-attachment: fixed;
+            background-size: cover;
+            height:100vh;
+
+        }
      
     </style>
 
     <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="cont.css">
 
 </head>
 <body>
@@ -37,9 +48,18 @@
         <div class="inav"><button class="nav_but"><a class="nav_links" href="resources.html"><p class="nav_text">Resources</p></a></button></div>
 
     </div>
-    <hr style ="margin:0px; height:3px; width:100%; background-color: black; border:1px solid black;">
+    <hr style ="margin:0px; padding:0; height:3px; width:100%; background-color: black; border:1px solid black;">
 
+    <div class="backdrop">
     <div class="mainhead"><h1>Destination Diaries</h1></div>
+    </div>
+
+    <div class="cont1">
+        <div class="cont2" id="Eiffel">Eiffel Tower</div>
+        <div class="cont2" id="Taj">Taj Mahal</div>
+        <div class="cont2" id="Pyr">The Great Pyramid of Giza</div>
+
+    </div>
 
 
 
