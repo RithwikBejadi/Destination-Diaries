@@ -1,3 +1,7 @@
+body {
+    background-color: rgb(113, 213, 141);
+}
+
 #explore{
     justify-content: center;
     align-items: center;
@@ -32,6 +36,7 @@
     font-size: 30px;
     border-radius: 30px;
     box-shadow: 3px 5px 4px 2px black;
+    transition: box-shadow 400ms, height 400ms;
 }
 #Eiffel {
     background-image: url(Images/image.png);
@@ -45,12 +50,14 @@
     background-position: -100px center;
     background-repeat: no-repeat;
 }
-.cont2::after {
-    background-color: gray;
+.cont2:hover {
+    box-shadow: 5px 4px 9px 4px black;
+    height: 40.3vh
 }
 #Pyr {
     background-image: url(Images/Giza.png);
     background-position: -100px center;
-    background-size: 610px;
+    background-size: 640px;
     background-repeat: no-repeat;
 }
+
