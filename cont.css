@@ -1,20 +1,23 @@
 body {
-    background-color: rgb(179, 230, 130);
+    background: linear-gradient(135deg, #1c1c1c, #3c3c3c);
 }
 
 #explore{
-    justify-content: center;
-    align-items: center;
-    color: black;
-    border: 1px solid black;
-    margin-top: 100px;
-}
+    font-family: 'Montserrat', sans-serif;
+    font-size: 39px;
+    font-weight: 700;
+    color: white; 
+    text-shadow: 2px 2px 5px black;
+    letter-spacing: 2px;
+    line-height: 1.4;
+    text-align: center; 
+    padding-top: 40px;
+
+      }
 #explore h2 {
-    text-align: center;
     margin-left: auto;
     margin-right: auto;
     margin: auto;
-    font-size: 50px;
 }
 
 .cont1 {
