@@ -38,13 +38,15 @@ body {
     box-shadow: 3px 5px 4px 2px black;
     transition: box-shadow 400ms, height 400ms;
 }
-#Eiffel {
-    background-image: url(Images/image.png);
-    background-size: 800px;
-    background-repeat: no-repeat;
-    background-position: -168px center;
-}
+#Eiffel { 
+        position: relative;
+        background-image: url(Images/image.png);
+        background-size: 800px;
+        background-repeat: no-repeat;
+        background-position: -168px center;
+    }
 #Taj {
+    position: relative;
     background-image: url(Images/image\ copy\ 2.png);
     background-size: 700px;
     background-position: -100px center;
@@ -55,10 +57,38 @@ body {
     height: 40.3vh
 }
 #Pyr {
+    position: relative;
     background-image: url(Images/Giza.png);
     background-position: -100px center;
     background-size: 640px;
     background-repeat: no-repeat;
+}
+.cont2 #over {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    font-size: 20px;
+    border-radius: 30px;
+    opacity: 0; 
+    transition: opacity 0.3s ease-in-out;
+    background-image: url(Images/destia.png);
+    background-repeat: no-repeat;
+    background-size:50px;
+    transition: background-size 400ms;
+}
+.cont2:hover #over{
+    opacity: 1;
+    background-size: 100px;
+    cursor: pointer;
 }
 
 
