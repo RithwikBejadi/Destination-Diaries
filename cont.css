@@ -108,5 +108,12 @@ body {
     background-size: 660px;
     background-repeat: no-repeat;
 }
+#tokyo {
+    position: relative;
+    background-image: url(Images/rome.png);
+    background-position: -100px center;
+    background-size: 660px;
+    background-repeat: no-repeat;
+}
 
 
