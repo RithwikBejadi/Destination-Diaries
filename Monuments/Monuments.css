@@ -1,0 +1,72 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+.vid {
+    position: fixed;
+            top: 0;
+            left: auto;
+            width: 100%;
+            height: 90%; 
+            overflow: hidden;
+            z-index: 10;
+}
+video {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+nav {
+    display: flex;
+    position: sticky;
+    top: 0px;
+    left: 0;
+    right: 0;
+    z-index: 12;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.logo {
+    height: 40px;
+    width: 40px;
+}
+.link {
+    margin-left : 40px;
+    text-decoration: none;
+    font-size: 18px;
+    color: rgb(249, 249, 249);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+}
+.navlinks a{
+    position: relative;
+    font-weight: 501;
+}
+.navlinks a::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 2px;
+    background: rgb(246, 214, 165);
+    transition: all 0.3s ease-in-out;
+    transform: translateX(-50%);
+}
+.navlinks a:hover::after {
+    width: 100%;
+}
+.navlinks {
+    margin-right: 60px;
+}
+.name {
+    position: absolute;
+    top: 15%;
+    left: 10%;
+    font-size: clamp(2rem, 5vw, 4rem);
+    font-weight: bold;
+    color: white;
+    z-index: 11;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    width: 100px;
+}
