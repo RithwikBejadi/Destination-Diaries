@@ -94,5 +94,12 @@ body {
     background-size: 100px;
     cursor: pointer;
 }
+#newyork {
+    position: relative;
+    background-image: url(Images/newyork.png);
+    background-position: -100px center;
+    background-size: 640px;
+    background-repeat: no-repeat;
+}
 
 
