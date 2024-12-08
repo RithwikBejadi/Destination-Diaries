@@ -7,7 +7,7 @@
 .name {
     background-color:white;
     margin: 70px;
-    box-shadow: 0 0 15px 20px #28c80c;
+    box-shadow: 0 0 15px 10px #96AE8D;
     height: 400px;
     width: 400px;
     text-align: center;
@@ -15,7 +15,7 @@
     transition: box-shadow 400ms, height 400ms, width 400ms;    
 }
 .name:hover {
-    box-shadow: 0 0 25px 30px rgb(255, 0, 0,0.7);
+    box-shadow: 0 0 25px 30px black;
     height: 410px;
     width: 410px;
 }
@@ -27,6 +27,9 @@
     margin: auto;
     justify-content: center;
     align-items: center;
+    position: absolute;
+    top: 0;
+    animation: fallAndBounce 2s ease-in-out forwards;
 }
 .pic {
     height: 200px;
@@ -37,6 +40,24 @@
     margin-top: 10px;
 }
 body {
-    background-image: url(Images/about\ background.jpg);
+    background-image: url(Images/frnd\ backdrop.jpg);
     background-size: cover;
 }
+@keyframes fallAndBounce {
+    0% {
+      top: -700px; 
+      transform: scale(1, 1);
+    }
+    50% {
+      top: 90vh; 
+      transform: scale(1.2, 0.8); 
+    }
+    75% {
+      top: 10vh; 
+      transform: scale(0.9, 1.1);
+    }
+    100% {
+      top: 10vh; 
+      transform: scale(1, 1);
+    }
+  }
