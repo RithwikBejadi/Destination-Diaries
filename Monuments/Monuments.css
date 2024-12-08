@@ -85,6 +85,8 @@ nav {
     height: 200px;
     align-items: center;
     display: flex;
+    margin-left: auto;
+    margin-right: auto;
 }
 .reviewbox p {
     position: relative;
@@ -92,6 +94,7 @@ nav {
     left: 20%;
     font-size: 50px;
     width: 100px;
+    text-align: center;
 }
 .reviewbox p1 {
     position: relative;
@@ -99,6 +102,7 @@ nav {
     left: 50%;
     font-size: 50px;
     width: 400px;
+    text-align: center;
 }
 .reviewbox span {
     font-size: 20px;
@@ -109,7 +113,8 @@ nav {
     top: 400px;
     z-index: 12;
     margin-top: 20px;
-    left: 70px;
+    margin-left: auto;
+    margin-right:auto;
     border: 1px solid black;
     width: 90%;
 }
@@ -118,6 +123,36 @@ iframe {
     
 }
 .mainreviews {
-    position: relative;
-    top: 800px;
+    width: 100%;
+    background-color: antiquewhite;
+    position: relative; 
+    height: auto; 
+    padding: 20px 0; 
+    display: flex;
+    top: 450px;
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center; 
+}
+
+.reviewhead {
+    width: 100%; 
+    margin: 0 auto; 
+    font-size: 25px;
+    font-family: 'Playfair Display', serif;
+    color: #333;
+}
+.review {
+    /* display: flex;  
+    flex-wrap: wrap; */
+    justify-content: space-around;
+    gap: 400px;
+    margin-top: 30px;
+}
+.minireview {
+    border: 1px solid black;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px;
 }
