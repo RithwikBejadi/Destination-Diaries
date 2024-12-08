@@ -5,19 +5,22 @@
 
 
 .name {
-    background-color:white;
+    background-color:transparent;
     margin: 70px;
     box-shadow: 0 0 15px 10px #96AE8D;
     height: 400px;
     width: 400px;
     text-align: center;
     border-radius: 20px;
-    transition: box-shadow 400ms, height 400ms, width 400ms;    
+    transition: box-shadow 400ms, height 400ms, width 400ms;
+    color: white;
+        
 }
 .name:hover {
-    box-shadow: 0 0 25px 30px black;
-    height: 410px;
-    width: 410px;
+    box-shadow: 0 0 25px 50px rgb(0, 0,0, 0.2);
+    height: 450px;
+    width: 450px;
+    border: 1px solid black ;
 }
 
 .names {
