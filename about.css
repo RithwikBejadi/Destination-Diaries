@@ -64,3 +64,39 @@ body {
       transform: scale(1, 1);
     }
   }
+.icons {
+    height: 50px;
+    width: 250px;
+    background-color: white;
+    display: inline-block;
+    border-radius: 5px;
+}
+.icons a {
+    text-decoration: none;  
+}
+.insta {
+    display: inline-block;
+    margin: 5px;
+    height: 40px;
+    width: 40px;
+    background-image: url(Images/instagram.png);
+    background-size: cover;
+}
+.linkedin {
+    display: inline-block;
+    margin: 5px;
+    height: 40px;
+    width: 40px;
+    background-image: url(Images/linkedin.png);
+    background-size: cover;
+}
+.github {
+    display: inline-block;
+    margin: 5px;
+    height: 40px;
+    width: 40px;
+    background-image: url(Images/github.png);
+    background-size: cover;
+}
+
+  
