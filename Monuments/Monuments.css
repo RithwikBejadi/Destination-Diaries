@@ -143,8 +143,6 @@ iframe {
     color: #333;
 }
 .review {
-    /* display: flex;  
-    flex-wrap: wrap; */
     justify-content: space-around;
     gap: 400px;
     margin-top: 30px;
