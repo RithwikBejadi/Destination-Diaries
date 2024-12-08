@@ -2,7 +2,13 @@
     background-color: black;
 
 }
-
+#footer {
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
 
 .name {
     background-color:transparent;
