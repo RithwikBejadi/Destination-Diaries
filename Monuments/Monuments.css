@@ -81,7 +81,7 @@ nav {
 .reviewbox {
     width: 70%;
     border: 1px solid black;
-    background-color: gold;
+    background-color:  #EFBF04;
     height: 200px;
     align-items: center;
     display: flex;
@@ -142,7 +142,7 @@ iframe {
     font-family: 'Playfair Display', serif;
     color: #333;
 }
-.review {
+#review {
     justify-content: space-around;
     gap: 400px;
     margin-top: 30px;
