@@ -55,6 +55,27 @@ body {
     background-position: -100px center;
     background-repeat: no-repeat;
 }
+#ganapati {
+    position: relative;
+    background-image: url(Images/ganapati\ 2.jpg);
+    background-size: 700px;
+    background-position: -100px center;
+    background-repeat: no-repeat;
+}
+#garden {
+    position: relative;
+    background-image: url(Images/garden\ 2.jpg);
+    background-size: 700px;
+    background-position: -100px center;
+    background-repeat: no-repeat;
+}
+#palace {
+    position: relative;
+    background-image: url(Images/palace.jpg);
+    background-size: 700px;
+    background-position: -100px center;
+    background-repeat: no-repeat;
+}
 .cont2:hover {
     box-shadow: 5px 4px 9px 4px black;
     height: 40.3vh
