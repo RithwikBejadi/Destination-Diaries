@@ -53,7 +53,7 @@
     box-shadow: 0 0 25px 20px rgb(0, 0,0, 0.5);
 }
 body {
-    background-image: url(Images/frnd\ backdrop.jpg);
+    background-image: url(Images/andrew-stutesman-l68Z6eF2peA-unsplash.jpg);
     background-size: cover;
 }
 @keyframes fallAndBounce {
@@ -122,6 +122,10 @@ body {
 }
 #pic1 {
     background-image: url(Images/me-removebg-preview.png);
+    background-size: cover;
+}
+#pic3 {
+    background-image: url(Images/pic2.jpeg);
     background-size: cover;
 }
   
