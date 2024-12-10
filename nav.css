@@ -1,67 +1,43 @@
-.Nav_Bar{
+nav {
     display: flex;
-    margin-top: 0px;
-    align-items: flex-start;
-    justify-content: center;  
-    margin:0px;
-    padding: 4px;
-    background-color: black; 
-    color: #ebd212f2;
-    position: relative;
-    box-shadow: 0 2px 0 0 black;
-    transition: box-shadow 400ms;
     position: fixed;
-    width: 100%;
-    z-index: 13;
-    border: 0;
-    
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 12;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 0 20px;
 }
-.inav {
-    margin-left: 0px;
-    margin-right: 20px;
-}
-.nav_text {
-    font-size: 14px;
-    text-align: center;
-    color: white
-    
-}
-.nav_but{
-    padding: 0px 17px;
-    background-color: transparent;
-    border-radius: 10px;
-    border: 0px solid black;
-    text-decoration: none;
-    background-color: transparent;
-    width: 104px;
-    height: 50px;  
-    transition: width 300ms, height 90ms, box-shadow 200ms ease-out;
-}
-.nav_but:hover {
-    cursor: pointer;
-    width: 110px;
-    height: 50px;
-    box-shadow: 2px 0 1.8px 1.8px #F89880;
-}
-.nav_links {
-    text-decoration: none;
-    color: rgb(233, 222, 222);
-}
-.nav_img {
+.logo {
     height: 40px;
-    width: auto;
-    padding: 0;
-    margin-right: auto;
-    border-radius: 30px; 
-    transition: height 600ms ease-out;
-    margin-left: 5px;
-    margin-top: 4px;
-    }
-.nav_img:hover {
-    height: 45px;
+    width: 40px;
 }
-body {
-    padding: 0;
-    margin: 0;
+.link {
+    margin-left: 40px;
+    text-decoration: none;
+    font-size: 18px;
+    color: rgb(249, 249, 249);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
 }
-
+.navlinks a {
+    position: relative;
+    font-weight: 501;
+}
+.navlinks a::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 2px;
+    background: rgb(246, 214, 165);
+    transition: all 0.3s ease-in-out;
+    transform: translateX(-50%);
+}
+.navlinks a:hover::after {
+    width: 100%;
+}
+.navlinks {
+    margin-right: 60px;
+}
