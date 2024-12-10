@@ -12,6 +12,7 @@
     transition: box-shadow 400ms;
     position: fixed;
     width: 100%;
+    z-index: 13;
     
 }
 .Nav_Bar:hover {
