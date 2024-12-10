@@ -1,5 +1,6 @@
 body {
     background-image: url(Images/mainhead.jpg);
+    
 }
 
 #explore{
@@ -137,4 +138,54 @@ body {
     background-size: 660px;
     background-repeat: no-repeat;
 }
-/* @media (max-width:) */
+@media only screen and (max-width: 768px) {
+    .mainhead h1 {
+        font-size: 50px;
+        padding-top: 100px;
+    }
+
+    .backdrop {
+        height: auto;
+        padding: 20px 0;
+    }
+
+    .cont1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cont2 {
+        width: 90%;
+        margin: 10px 0;
+    }
+
+
+    .navlinks {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navlinks a {
+        margin: 5px 0;
+    }
+
+    /* Footer adjustments */
+    #footer {
+        font-size: 12px;
+        padding: 10px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    
+    .mainhead h1 {
+        font-size: 40px;
+    }
+
+    
+    .cont2 {
+        width: 95%; 
+    }
+}
